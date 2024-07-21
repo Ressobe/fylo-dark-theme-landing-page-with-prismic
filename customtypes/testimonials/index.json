@@ -1,0 +1,46 @@
+{
+  "format": "custom",
+  "id": "testimonials",
+  "label": "Testimonials",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "job_title": {
+        "type": "Text",
+        "config": {
+          "label": "Job title",
+          "placeholder": ""
+        }
+      },
+      "quote": {
+        "type": "Text",
+        "config": {
+          "label": "Quote",
+          "placeholder": ""
+        }
+      },
+      "name": {
+        "type": "Text",
+        "config": {
+          "label": "Name",
+          "placeholder": ""
+        }
+      },
+      "avatar": {
+        "type": "Image",
+        "config": {
+          "label": "Avatar",
+          "constraint": {},
+          "thumbnails": []
+        }
+      }
+    }
+  }
+}
